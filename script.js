@@ -8,7 +8,6 @@ let questions = [
 let current = 0;
 
 let photos =[
-  "./photos/img1.jpeg",
   "./photos/img2.jpeg",
   "./photos/img3.jpeg",
   "./photos/img4.jpeg",
@@ -52,6 +51,7 @@ function showRandomPhoto() {
     img.src = photos[Math.floor(Math.random() * photos.length)];
     document.getElementById("photoBox").appendChild(img);
 }
+
 
 
 
