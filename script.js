@@ -8,13 +8,15 @@ let questions = [
 let current = 0;
 
 let photos = [
-    "photos/img1.jpeg",
-    "photos/img2.jpeg",
-    "photos/img3.jpeg",
-    "photos/img4.jpeg",
-    "photos/img5.jpeg",
-    "photos/img6.jpeg",
+  "./photos/img1.jpg",
+  "./photos/img2.jpg",
+  "./photos/img3.jpg",
+  "./photos/img4.jpg",
+  "./photos/img5.jpg",
+  "./photos/img6.jpg",
+  "./photos/img7.jpg"
 ];
+
 
 function yesClicked() {
     current++;
@@ -50,4 +52,5 @@ function showRandomPhoto() {
     img.src = photos[Math.floor(Math.random() * photos.length)];
     document.getElementById("photoBox").appendChild(img);
 }
+
 
