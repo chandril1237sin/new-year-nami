@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff5f9e, #ffc371);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+#emoji {
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+#photoBox img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.longText {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 20px 0;
+    color: #333;
+}
+
+.finalLine {
+    margin-top: 25px;
+    color: #ff2f6d;
+}
